@@ -10,8 +10,8 @@
   margin:0;
 }
 #heartbg{
-  width:1520px;
-  height:800px;
+  max-width:1520px;
+  min-height:800px;
   /*background: red;*/
   margin:40px auto 0px auto;
   border:3px solid pink;
@@ -30,8 +30,8 @@ body{
 }
 
 .heartPic{
-  width:1000px;
-  height:850px;
+  max-width:1000px;
+  min-height:850px;
   position:relative;
   /*background: pink;*/
   margin-left:260px;
@@ -39,7 +39,7 @@ body{
 }
 .heartPic ul{
   float:left;
-  width:879px;
+  max-width:879px;
 }
 .heartPic ul li{
   float:left;
@@ -72,7 +72,7 @@ body{
   height:120px;
 }
 #construction{
-  width:1520px;
+  max-width:1520px;
   margin:0 auto;
   background: powderblue;
   /*background-repeat: no-repeat;*/
