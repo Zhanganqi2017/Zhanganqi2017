@@ -34,11 +34,12 @@ body{
   min-height:850px;
   position:relative;
   /*background: pink;*/
-  margin:30 auto;
+  margin:70 auto;
 }
 .heartPic ul{
   float:left;
   max-width:879px;
+/*  border:3px solid blue;*/
 }
 .heartPic ul li{
   float:left;
@@ -47,6 +48,7 @@ body{
   padding:2px;
   /*cursor:pointer;*/
   border-radius: 26px;
+/*  border:3px solid red;*/
 }
 .heartpic ul li img{
   border:3px solid white;
@@ -67,8 +69,16 @@ body{
   display:block;
 }
 .in img{
+  width:115px;
+  height: 115px;
+  /*width:120px;
+ height:120px;*/
+}
+.out{
   width:120px;
   height:120px;
+  background: white;
+  visibility: hidden;
 }
 #construction{
   max-width:1520px;
