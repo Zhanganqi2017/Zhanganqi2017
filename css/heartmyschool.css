@@ -86,7 +86,7 @@ body{
 .atical{
   width:900px;
   min-height:1300px;
-  margin-left: 310px;
+  margin:20 auto;
   background: white;
   border-radius: 25px;
   opacity: 0.7;
