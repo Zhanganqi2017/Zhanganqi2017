@@ -43,8 +43,8 @@ body{
 }
 .heartPic ul li{
   float:left;
-  width:120px;
-  height:120px;
+  max-width:120px;
+  max-height:120px;
   padding:2px;
   /*cursor:pointer;*/
   border-radius: 26px;
@@ -58,8 +58,8 @@ body{
 }
 .heartPic ul li .pTxt{
   display:none;
-  width:100px;
-  height:15px;
+  max-width:100px;
+  max-height:15px;
   text-align:center;
   color:#fff;
   overflow:hidden;
