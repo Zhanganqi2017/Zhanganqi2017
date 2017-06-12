@@ -22,41 +22,48 @@ ul,li{
   }
   li:hover{
     transform:scale(3);
-    transition:1s;
+    transition:1.5s;
   }
 body{
   font:12px/20px Arial; 
   /*background:#CCC;*/
 }
 
-.heartPic{
-  max-width:1000px;
+#heartPic{
+  max-width:930px;
   min-height:850px;
   position:relative;
   /*background: pink;*/
   margin:70 auto;
+  border:3px solid red;
 }
-.heartPic ul{
+#ulwidth1,#ulwidth2,#ulwidth3,#ulwidth4,#ulwidth5,#ulwidth6{
   float:left;
-  max-width:879px;
-/*  border:3px solid blue;*/
+  max-width:979px;
+  max-height: 130px;
+  /*border:3px solid blue;*/
+  display:inline;
 }
-.heartPic ul li{
+#liwidth1,#liwidth2,#liwidth3,#liwidth4,#liwidth5,#liwidth6,#liwidth7,#liwidth8,#liwidth9,#liwidth10,#liwidth11,#liwidth12,#liwidth13,#liwidth14,#liwidth15,#liwidth16,#liwidth17,#liwidth18,#liwidth19,#liwidth20,#liwidth21,#liwidth22,#liwidth23,#liwidth24,#liwidth25,#liwidth26,#liwidth27,#liwidth28,#liwidth29,#liwidth30,#liwidth31,#liwidth32,#liwidth33,#liwidth34,#liwidth35,#liwidth36,#liwidth37,#liwidth38,#liwidth39,#liwidth40,#liwidth41,#liwidth42{
   float:left;
-  max-width:120px;
-  max-height:120px;
+  max-width:130px;
+  max-height:130px;
   padding:2px;
   /*cursor:pointer;*/
   border-radius: 26px;
-/*  border:3px solid red;*/
+  border:3px solid red;
 }
-.heartpic ul li img{
-  border:3px solid white;
+#liwidth1 img,#liwidth2 img,#liwidth3 img,#liwidth4 img,#liwidth5 img,#liwidth6 img,#liwidth7 img,#liwidth8 img,#liwidth9 img,#liwidth10 img,#liwidth11 img,#liwidth12 img,#liwidth13 img,#liwidth14 img,#liwidth15 img,#liwidth16 img,#liwidth17 img,#liwidth18 img,#liwidth19 img,#liwidth20 img,#liwidth21 img,#liwidth22 img,#liwidth23 img,#liwidth24 img,#liwidth25 img,#liwidth26 img,#liwidth27 img,#liwidth28 img,#liwidth29 img,#liwidth30 img,#liwidth31 img,#liwidth32 img,#liwidth33 img,#liwidth34 img,#liwidth35 img,#liwidth36 img,#liwidth37 img,#liwidth38 img,#liwidth39 img,#liwidth40 img,#liwidth41 img,#liwidth42 img{
+ /* border:3px solid white;*/
   border-radius: 25px;
+  width:auto;
+  height:auto;
+  max-height: 100%;
+  max-width: 100%;
 }
-.heartpic ul li img:hover{
+/*.heartpic ul li img:hover{
   box-shadow: 2px 5px solid gray;
-}
+}*/
 .heartPic ul li .pTxt{
   display:none;
   max-width:100px;
@@ -69,16 +76,22 @@ body{
   display:block;
 }
 .in img{
-  width:115px;
-  height: 115px;
+  /*width:115px;
+  height: 115px;*/
   /*width:120px;
  height:120px;*/
+ /*width:auto;
+  height:auto;
+  max-height: 100%;
+  max-width: 100%;*/
+   /*border:3px solid white;*/
 }
 .out{
-  width:120px;
-  height:120px;
-  background: white;
-  visibility: hidden;
+  width:auto;
+  height:auto;
+  max-height: 100%;
+  max-width: 100%;
+  border:0;
 }
 #construction{
   max-width:1520px;
