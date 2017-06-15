@@ -51,10 +51,10 @@ body{
   padding:2px;
   cursor:pointer;
   border-radius: 26px;
-  border:3px solid transparent;
+  /*border:3px solid transparent;*/
 }
 #in1 img,#in2 img,#in3 img,#in4 img,#in5 img,#in6 img,#in7 img,#in8 img,#in9 img,#in10 img,#in11 img,#in12 img,#in13 img,#in14 img,#in15 img,#in16 img,#in17 img,#in18 img,#in19 img,#in20 img,#in21 img,#in22 img,#in23 img,#in24 img,#in25 img,#in26 img,#in27 img{
-/*  border:6px solid white;*/
+  border:6px solid white;
   border-radius: 25px;
   width:auto;
   height:auto;
@@ -69,6 +69,13 @@ body{
   max-height: 100%;
   max-width: 100%;
   float:left;
+  border:3px solid transparent;
+
+}
+img:hover{
+  transform:scale(3);
+  transition:1.5s;
+  box-shadow: 3px 3px 0 0 pink;
 }
 
 /*img{
