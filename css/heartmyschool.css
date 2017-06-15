@@ -55,7 +55,7 @@ body{
 }
 #in1 img,#in2 img,#in3 img,#in4 img,#in5 img,#in6 img,#in7 img,#in8 img,#in9 img,#in10 img,#in11 img,#in12 img,#in13 img,#in14 img,#in15 img,#in16 img,#in17 img,#in18 img,#in19 img,#in20 img,#in21 img,#in22 img,#in23 img,#in24 img,#in25 img,#in26 img,#in27 img{
   border:6px solid white;
-  border-radius: 25px;
+  border-radius: 8%;
   width:auto;
   height:auto;
   max-height: 100%;
@@ -63,7 +63,7 @@ body{
   float:left;
 }
   #out1 img,#out2 img,#out3 img,#out4 img,#out5 img,#out6 img,#out7 img,#out8 img,#out9 img,#out10 img,#out11 img,#out12 img,#out13 img,#out14 img,#out15 img{
-  border-radius: 25px;
+  border-radius: 8%;
   width:auto;
   height:auto;
   max-height: 100%;
@@ -75,7 +75,7 @@ body{
 img:hover{
   transform:scale(3);
   transition:1.5s;
-  box-shadow: 3px 3px 0 0 pink;
+/*  box-shadow: 3px 3px 0 0 pink;*/
 }
 
 /*img{
