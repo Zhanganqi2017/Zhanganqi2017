@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sandy's blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	
+
+	
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+  <style>
+  .center{
+  	max-width: 1000px;
+  	margin:0 auto;
+  	height:300px;
+  }
+  /*容器*/
+.container0 {
+    -webkit-perspective: 2000px;
+    -moz-perspective:2000px;
+    -ms-perspective: 2000px;
+    perspective: 2000px;
+/*    border:3px solid pink;*/
+    margin-top: 0px;
+}
+/*piece盒子*/
+.piece-box {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin:0 auto;
+    perspective-origin: 50% 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+/*piece通用样式*/
+.piece {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: red;
+    opacity: 0.95;
+    border:1px solid pink;
+}
+.piece img{
+  width:auto;
+  width:auto;
+  width:100%;
+  height:100%;
+}
+.piece-1 {
+    background: #FF6666;
+    -webkit-transform: rotateY(0deg) translateZ(433px);
+    -ms-transform: rotateY(0deg) translateZ(433px);
+    -o-transform: rotateY(0deg) translateZ(433px);
+    transform: rotateY(0deg) translateZ(433px);
+}
+.piece-2 {
+    background: #FFFF00;
+    -webkit-transform: rotateY(60deg) translateZ(433px);
+    -ms-transform: rotateY(60deg) translateZ(433px);
+    -o-transform: rotateY(60deg) translateZ(433px);
+    transform: rotateY(60deg) translateZ(433px);
+}
+.piece-3 {
+    background: #006699;
+    -webkit-transform: rotateY(120deg) translateZ(433px);
+    -ms-transform: rotateY(120deg) translateZ(433px);
+    -o-transform: rotateY(120deg) translateZ(433px);
+    transform: rotateY(120deg) translateZ(433px);
+}
+.piece-4 {
+    background: #009999;
+    -webkit-transform: rotateY(180deg) translateZ(433px);
+    -ms-transform: rotateY(180deg) translateZ(433px);
+    -o-transform: rotateY(180deg) translateZ(433px);
+    transform: rotateY(180deg) translateZ(433px);
+}
+.piece-5 {
+    background: #FF0033;
+    -webkit-transform: rotateY(240deg) translateZ(433px);
+    -ms-transform: rotateY(240deg) translateZ(433px);
+    -o-transform: rotateY(240deg) translateZ(433px);
+    transform: rotateY(240deg) translateZ(433px);
+}
+.piece-6 {
+    background: #FF6600;
+    -webkit-transform: rotateY(300deg) translateZ(433px);
+    -ms-transform: rotateY(300deg) translateZ(433px);
+    -o-transform: rotateY(300deg) translateZ(433px);
+    transform: rotateY(300deg) translateZ(433px);
+}
+/*piece盒子*/
+.piece-box {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    perspective-origin: 50% 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    animation: pieceRotate 17s;
+    -moz-animation: pieceRotate 17s; /* Firefox */
+    -webkit-animation: pieceRotate 17s; /* Safari and Chrome */
+    -o-animation: pieceRotate 17s ; /* Opera */
+}
+/*走马灯动画*/
+@keyframes pieceRotate
+{
+0%   {-webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);}
+100% {-webkit-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg);}
+}
+/* Firefox */
+@-moz-keyframes pieceRotate
+{
+0%   {-webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);}
+100% {-webkit-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg);}
+}
+/* Safari and Chrome */
+@-webkit-keyframes pieceRotate
+{
+0%   {-webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);}
+100% {-webkit-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg);}
+}
+/* Opera */
+@-o-keyframes pieceRotate
+{
+0%   {-webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);}
+100% {-webkit-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        transform: rotateY(360deg);}
+}
+  </style>
+	</head>
+	<body>
+
+<audio  autoplay="autoplay">
+     <source src="./MP3/bg_song.mp3" type="audio/mp3" />
+</audio>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="top-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-7 text-left menu-1">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center menu-2">
+					<div id="fh5co-logo">
+						<h1>
+							
+							sandy
+							
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<div id="fh5co-contact" class="fh5co-no-pd-top">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-12 col-md-offset-0 text-center fh5co-heading">
+					<h2><span>My blog</span></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="container0">
+    <div class="piece-box">
+        <div class="piece piece-1"><img src="./images/yi1.jpg"></div>
+        <div class="piece piece-2"><img src="./images/yi2.jpg"></div>
+        <div class="piece piece-3"><img src="./images/yi3.jpg"></div>
+        <div class="piece piece-4"><img src="./images/yi4.jpg"></div>
+        <div class="piece piece-5"><img src="./images/yi5.jpg"></div>
+        <div class="piece piece-6"><img src="./images/yi6.jpg"></div>
+    </div>
+</div> 
+
+<div class="center">
+</div>
+
+			
+								
+
+	
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
