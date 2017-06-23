@@ -73,14 +73,16 @@
     border:5px solid pink;
     float:left;
     list-style:none;
-    z-index: 1;
   }
   .li img{
     width:auto;
     height:auto;
     width:100%;
     height:100%;
-
+    z-index: 1;
+  }
+  .li img:hover{
+    z-index:999;
   }
   .li1{
    transform: rotate(30deg);
@@ -175,7 +177,6 @@
   -moz-box-shadow: 5px 5px 5px;
    box-shadow: 5px 5px 5px;
   transition:2s;
-  z-index: 999;
   }
   .arti{
   	max-width: 800px;
