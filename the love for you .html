@@ -73,6 +73,8 @@
     border:5px solid pink;
     float:left;
     list-style:none;
+    z-index: 1;
+    position:relative;
   }
   .li img{
     width:auto;
@@ -81,9 +83,43 @@
     height:100%;
     z-index: 1;
   }
-  .li img:hover{
+  .li1:hover{
     z-index:999;
   }
+  .li2:hover{
+    z-index:999;
+  }
+  .li3:hover{
+    z-index:999;
+  }
+  .li4:hover{
+    z-index:999;
+  }
+  .li5:hover{
+    z-index:999;
+  }
+  .li6:hover{
+    z-index:999;
+  }
+  .li7:hover{
+    z-index:999;
+  }
+  .li8:hover{
+    z-index:999;
+  }
+  .li9:hover{
+    z-index:999;
+  }
+  .li10:hover{
+    z-index:999;
+  }
+  .li11:hover{
+    z-index:999;
+  }
+  .li12:hover{
+    z-index:999;
+  }
+
   .li1{
    transform: rotate(30deg);
    -ms-transform: rotate(30deg);   /* IE 9 */
@@ -338,10 +374,11 @@
   </style>
 	</head>
 	<body>
-
-<audio  autoplay="autoplay">
+<div style="background-color: #fbf2eb;">
+<audio   controls="controls">
      <source src="./MP3/bg_song.mp3" type="audio/mp3" />
 </audio>
+</div>
 		
 	<div class="fh5co-loader"></div>
 	
@@ -387,9 +424,9 @@
     <div class="piece-box">
         <div class="piece piece-1"><img src="./images/yi1.jpg"></div>
         <div class="piece piece-2"><img src="./images/yi2.jpg"></div>
-        <div class="piece piece-3"><img src="./images/yi3.jpg"></div>
-        <div class="piece piece-4"><img src="./images/yi4.jpg"></div>
-        <div class="piece piece-5"><img src="./images/yi5.jpg"></div>
+        <div class="piece piece-3"><img src="./images/yi33.jpg"></div>
+        <div class="piece piece-4"><img src="./images/yi44.jpg"></div>
+        <div class="piece piece-5"><img src="./images/yi55.jpg"></div>
         <div class="piece piece-6"><img src="./images/yi6.jpg"></div>
     </div>
 </div> 
@@ -411,8 +448,10 @@
   
 </div>
 </div>
-
-			
+<hr style="border:3px dotted pink">
+<div style="text-align:center;margin-bottom:20px;">
+z-index失效的原因<a href="http://shiyousan.com/post/635861461562038949">http://shiyousan.com/post/635861461562038949</a>
+</div>			
 								
 
 	
